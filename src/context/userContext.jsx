@@ -5,7 +5,7 @@ import axios from 'axios';
 
 export const UserContext = createContext();
 
-const API = 'http://localhost:5000/api'; // Update if deploying
+const API = 'https://gamify-life-backend-rho.vercel.app/api'; // Update if deploying
 
 export const UserProvider = ({ children }) => {
   const username = 'your_username'; // Replace with dynamic username if needed
