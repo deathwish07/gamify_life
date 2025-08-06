@@ -7,7 +7,7 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto flex justify-between items-center">
                 <ul className="flex justify-center gap-10 text-white text-sm font-semibold">
                     <li>
-                        <Link to="/dashboard" className="hover:text-gray-400 transition">Dashboard</Link>
+                        <Link to="/" className="hover:text-gray-400 transition">Dashboard</Link>
                     </li>
                     <li>
                         <Link to="/stats" className="hover:text-gray-400 transition">Stats</Link>
