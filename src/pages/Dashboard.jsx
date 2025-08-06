@@ -12,18 +12,18 @@ const Dashboard = () => {
 
   return (
     <div className="p-6 max-w-3xl mx-auto">
-      <h1 className="text-3xl font-bold mb-4">Level {level}</h1>
+      <h1 className="text-3xl font-bold mb-4">Levels</h1>
       {Object.entries(stats).map(([type, {level, xp}]) => (
         <XPBar key={type} type={type} level={level} xp={xp} />
       ))}
 
       <AddLogForm />
 
-      <XPChart />
+      {/* <XPChart /> */}
       <Streaks />
-      <MoodPieChart />
+      {/* <MoodPieChart />
       <ActivityHeatmap/>
-      <LifeStats/>
+      <LifeStats/> */}
 
       <div className="mt-6">
         <h2 className="text-xl font-bold">Recent Logs</h2>
