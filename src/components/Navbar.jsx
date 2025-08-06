@@ -13,10 +13,10 @@ const Navbar = () => {
                         <Link to="/stats" className="hover:text-gray-400 transition">Stats</Link>
                     </li>
                     <li>
-                        <Link to="/xp-trend" className="hover:text-gray-400 transition">XP Trend</Link>
+                        <Link to="/trend" className="hover:text-gray-400 transition">XP Trend</Link>
                     </li>
                     <li>
-                        <Link to="/mood-distribution" className="hover:text-gray-400 transition">Mood Distribution</Link>
+                        <Link to="/mood" className="hover:text-gray-400 transition">Mood Distribution</Link>
                     </li>
                     <li>
                         <Link to="/heatmap" className="hover:text-gray-400 transition">Heatmap</Link>
